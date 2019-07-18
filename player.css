@@ -1,0 +1,72 @@
+/*debug helper*/
+/*div:hover{*/
+/*    background: red;*/
+/*}*/
+
+body{
+    background: lightyellow;
+}
+
+audio{
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.choose-one {
+    border-radius: 2px;
+    background-color: white;
+    cursor:pointer;
+    font-size: 15px;
+    border-bottom:3px solid #59D4D9;
+    padding: 5px;
+}
+
+.choose-one:first-of-type {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: not-allowed;
+}
+
+.choose-one:hover{
+    background: yellowgreen;
+}
+.vertical-center {
+    position: absolute;
+    top: 5%;
+    transform: translateY(-50%);
+}
+
+.horizontal-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.play-modes{
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 15px;
+}
+
+#id-div-cover {
+    width: 300px;
+    height: 300px;
+}
+
+#time {
+    display: flex;
+    justify-content:flex-end;
+}
+
+img {
+    height: 90%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.4);
+}
+
+button {
+    border-radius: 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="player.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <title>Local Player</title>
+</head>
+<body class="horizontal-center vertical-center">
+<div id="id-div-cover">
+    <img src="cover.png" >
+</div>
+<audio class="alex-audio" src="audio/1.mp3" data-state="single" controls></audio>
+
+<div class="play-modes">
+    <button id="id-button-single">Single</button>
+    <button id="id-button-list">Loop</button>
+    <button id="id-button-random">Random</button>
+</div>
+        <div id="id-div-time">
+            <button id="id-button-play">Play</button>
+            <button id="id-button-pause">Pause</button>
+            <div id="id-time" style="display: none">
+                <span>
+                Time:
+                </span>
+                <span id="id-span-current">0</span>/
+                <span id="id-span-total">0</span>
+            </div>
+        </div>
+
+        <div id="id-div-list" >
+            <div class="choose-one">My List</div>
+            <div class="choose-one" data-path="audio/1.mp3">Ellinia.mp3</div>
+            <div class="choose-one" data-path="audio/2.mp3">Carrying You.mp3</div>
+            <div class="choose-one" data-path="audio/3.mp3">Henesys.mp3</div>
+            <div class="choose-one" data-path="audio/1.mp3">Ellinia.mp3</div>
+            <div class="choose-one" data-path="audio/2.mp3">Carrying You.mp3</div>
+            <div class="choose-one" data-path="audio/3.mp3">Henesys.mp3</div>
+            <div class="choose-one" data-path="audio/1.mp3">Ellinia.mp3</div>
+            <div class="choose-one" data-path="audio/2.mp3">Carrying You.mp3</div>
+            <div class="choose-one" data-path="audio/3.mp3">Henesys.mp3</div>
+            <div class="choose-one" data-path="audio/1.mp3">Ellinia.mp3</div>
+            <div class="choose-one" data-path="audio/2.mp3">Carrying You.mp3</div>
+            <div class="choose-one" data-path="audio/3.mp3">Henesys.mp3</div>
+        </div>
+
+<script type="text/javascript" src="controller.js"></script>
+</body>
+</html>
