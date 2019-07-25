@@ -3,14 +3,26 @@
 /*    background: red;*/
 /*}*/
 
-body{
-    background: lightyellow;
-}
 
 audio{
     border-radius: 50px;
     box-shadow: 5px 5px 10px rgba(0,0, 0, 0.2);
     margin-bottom: 20px;
+}
+
+.container {
+    display: block;
+    max-width: 1080px;
+    margin: 0 auto;
+
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.2);
+}
+
+.col-sm{
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0, 0, 0.2);
+    background-color: #59D4D9;
 }
 
 .choose-one {
